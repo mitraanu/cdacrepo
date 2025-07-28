@@ -30,7 +30,7 @@ jobs:
     - name: Build Java
       run: javac Hello.java
 
-    -name: Run Java
-     run: java Hello
+    - name: Run Java
+      run: java Hello
 
   
